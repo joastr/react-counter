@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+.counterButtons {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+* {
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  background-color: purple;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: "Roboto Slab", serif;
+  font-size: 1.4em;
+}
+
+button:hover {
+  background-color: #651465;
+}
+
+.blue {
+  background-color: royalblue;
+}
+
+.blue:hover {
+  background-color: navy;
+}
+
+#counter {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  font-size: 3em;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  color: purple;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 900px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
